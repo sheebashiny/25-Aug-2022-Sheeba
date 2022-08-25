@@ -1,0 +1,22 @@
+ASP.NET stands for Active Server Pages.NET. It is mostly used for creating web pages and web technologies. 
+It is considered a very important tool for developers to build dynamic web pages using languages like C# and Visual Basic. 
+ASP.NET Web API is a framework that helps you to build services by making it easy to reach a wide range of clients including 
+browsers, mobiles, tablets, etc. With the help of ASP.NET, you can use the same framework and same patterns for creating web pages and services both.
+
+*ASP.NET Web API can be used with MVC for any type of application.
+ A web API can help you develop ASP.NET application via AJAX.
+ Hence, web API makes it easier for the developers to build an ASP.NET application that is compatible with any browser and almost any device.
+
+*How to use Web API? Web API receives requests from different types of client devices like mobile, laptop, etc, and then sends those requests to the webserver to process those requests and returns the desired output to the client. Web API is a System to System interaction, in which the data or information from one system can be accessed by another system, after the completion of execution the resultant data or we can say as output is shown to the viewer.
+
+API provides data to its programmers which is made available to outside users. When programmers decide to make some of their data available to the public, they “expose endpoints, ” meaning they publish a portion of the language they have used to build their program. Other programmers can then extract the data from the application by building URLs or using HTTP clients to request data from those endpoints.
+
+*Server Side: A server-side web API is a programmatic interface. It consists of one or more publicly exposed endpoints. It defines a request-response message system. Mashup is a web application that is a server-side API that combines several server-side APIs. Webhook is a server-side API that takes input as a uniform resource identifier.
+
+*Client Side: Client Side web APIs target standardized JavaScript bindings. Google created their native client architecture designed to replace native plug-ins with secure native sandboxed extensions and applications.
+
+*Steps to use Web API:
+
+1.)Most APIs require an API key. Once you find an API you want to play with, look in the documentation for access requirements. Most APIs will ask you to complete an identity verification, like signing in with your Google account. You’ll get a unique string of letters and numbers to use when accessing the API.
+2.)The easiest way to start using an API is by finding an HTTP client online, like REST-Client, Postman, or Paw. These ready-made tools help you structure your requests to access existing APIs with the API key you received. You’ll still need to know some of the syntaxes from the documentation, but there is very little coding knowledge required.
+3.)The next best way to pull data from an API is by building a URL from existing API documentation.
