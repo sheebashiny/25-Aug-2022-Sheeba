@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+html{
+    height: 62.5%;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins',sans-serif;
+    background: #fff;
+}
+.login-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 35rem;
+    padding: 5rem;
+    transform: translate(-50%, -50%);
+    background: rgba(203, 212, 211, 0.479);
+    box-sizing: border-box;
+    border-radius: 3%;
+    border: 1px solid grey;
+}
+.row{
+    text-align: center;
+    margin-top: -7.8rem;
+}
+.login-box img{
+    width:150px;
+    height: 120px;
+    z-index: 100;
+}
+.login-box h2{
+    margin: 0 0 30px;
+    padding: 0; 
+    color: #0e153a;
+    text-align: center;
+    
+}
+.login-box .user-box{
+    position: relative;
+}
+.login-box .user-box input{
+    width: 100%;
+    padding: 10px 0;
+    font-size: 1.2rem;
+    color: black;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+    background: transparent;
+}
+input[type="submit"]{
+    position: relative;
+    text-decoration: none;
+    margin-top: 2rem;
+}
+
+input.btn{
+    font-size: 1.5rem;
+    font-weight: bold;
+    letter-spacing: 1px; 
+    outline: none;
+    border: none;
+    cursor: pointer;
+    background: rgba(16, 99, 82, 0.835);
+    color: white;
+    padding: 0.5rem;
+    margin-top: 1rem;
+    border-radius: 5px;
+    width: 100%;
+}
+input.btn:hover {
+    background-color: rgba(45, 114, 100, 0.52);
+    color: black;
+}
+
+
+

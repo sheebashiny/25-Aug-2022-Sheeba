@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register..</title>
+    <link rel="stylesheet" href="Assets/register.css">
+</head>
+<body>
+    <div class="signup-box">
+        <h2>Sign Up</h2>
+        <form id="signupForm">
+            <div class="user-box">
+                <input type="text" name="registerUserName" id="registerUserName" placeholder="Enter your Name" required=""/>
+            </div>
+            <div class="user-box">
+                <input type="email" name="e_mail" id="e_mail" placeholder="Enter your E-mail" required=""/>
+            </div>
+            <div class="user-box">
+                <input type="text" name="phoneno" id="phoneno" placeholder="Enter your Contact Number" maxlength="10" required=""/>
+            </div>
+            <div class="user-box">
+                <input type="password" name="registerPassword" id="registerPassword" placeholder="Enter Password" required=""/>
+            </div>
+            
+           <!-- <p id="errorMsg" style="font-size:large; color: rgba(27, 177, 135, 0.729);"></p> -->
+            
+            <input type="submit" class="btn" value="Register">
+            <p>Already Registerd !..
+            <a href="../login.html">Login here</a></p>
+        </form>
+    </div>
+    <script src="..//scripts/register.js"></script>
+</body>
+</html>

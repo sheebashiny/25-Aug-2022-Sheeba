@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login..</title>
+    <link rel="stylesheet" href="Assets/login.css">
+    <script src="https://kit.fontawesome.com/5d1ba01964.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="login-box">
+        <div class="row">
+            <img src="Assets/img/profile-icon.png" alt="Profilepic">
+        </div>
+        <h2>Sign in</h2>
+        <form id="login_form">
+            <div class="user-box">
+                <input type="text" name="userName" id="userName" placeholder="Username" required=""/>
+                <p id="alertMsg1"></p>
+            </div>
+            <div class="user-box">
+                <input type="password" name="checkPassword" id="checkPassword" placeholder="Password" required=""/>
+                <p id="alertMsg2"></p>
+            </div>
+            <input type="submit"class="btn" value="Login">
+            <p>Not an Registerd User ?
+            <a href="../register.html">Sign up</a></p>
+        </form>
+    </div>
+    <script src="..//scripts/login.js"></script>
+    
+</body>
+</html>

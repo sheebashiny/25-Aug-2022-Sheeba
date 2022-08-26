@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none; 
+}
+body{
+    background-image: linear-gradient(to left,
+        rgba(113, 105, 105, 0.956),
+        rgba(108, 120, 214, 0.316));
+   font-family: 'Poppins', sans-serif; 
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: transparent;
+    color: #fff;
+}
+
+.logo{
+    font-size: xx-large;
+    color:white;
+    opacity: 0.8;
+    font-family: 'Playfair Display SC', serif; 
+    margin: .5rem;  
+}
+
+.navbar-links ul{
+    margin: 0;
+    padding: 0;
+    display: flex;  
+}
+.navbar-links li{
+   list-style: none;
+   font-size: large;
+}
+
+.navbar-links li a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.753);
+    padding: 2rem;
+    display: block;
+}
+
+.navbar-links li a.bg_active {
+    color: black;
+    background-color: rgba(255, 255, 255, 0.288);
+    border: 1px solid rgba(255, 255, 255, 0.121);
+    padding: .5rem;
+    border-radius: 20px; 
+    margin-top: 23px; 
+}
+.navbar-links li a:hover{
+    color: black;
+}
+.toggle-button{
+    position: absolute;
+    top: .75rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+}
+.toggle-button .bar{
+    height: 3px;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+}
+
+@media (max-width:475px){
+    .toggle-button{
+        display: flex;
+    }
+    .navbar-links {
+        display: none;
+        width: 100%;
+    }
+    .navbar{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .navbar-links ul{
+        width: 100%;
+        flex-direction: column;
+    }
+    .navbar-links li{
+        text-align: center;
+    }
+    .navbar-links li a{
+        padding: .5rem 1rem;
+    }
+    .navbar-links.active{
+        display: flex;
+    }
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 50% 50%; 
+    margin: 200px 100px;
+}
+.container img{
+    width:450px;
+    height: 250px;
+}
+
+.content{
+    font-size: larger;
+    line-height: 1.8rem;
+    width: 100%;
+    height: 250px;
+    text-align: justify;
+    letter-spacing: 2px;
+    overflow-y: scroll;
+    color: rgb(14, 39, 70);
+}
+
+@media screen and (max-width: 1024px){
+    .container img{
+        grid-template-columns: repeat(1, 1fr);
+        width: 250px;
+        height: 250px;
+        margin-left: -55px;
+    }
+    
+    
+}
+
